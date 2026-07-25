@@ -1,20 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIKSIK 2.0 Tutorial</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SIKSIK 2.0 Official Tutorial Videos</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#ffffff;
+color:#222;
+}
+
+header{
+
+background:white;
+padding:50px 20px 30px;
+text-align:center;
+border-bottom:5px solid #E30613;
+
+}
+
+.logo{
+
+width:220px;
+max-width:90%;
+
+}
+
+h1{
+
+margin-top:20px;
+font-size:40px;
+font-weight:800;
+color:#E30613;
+
+}
+
+.subtitle{
+
+margin-top:15px;
+font-size:18px;
+color:#666;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+.notice{
+
+margin:40px auto;
+max-width:900px;
+background:#FFF8D7;
+padding:18px;
+border-left:8px solid #FFD400;
+border-radius:12px;
+
+}
+
+.notice strong{
+
+color:#E30613;
+
+}
+
+.container{
+
+width:95%;
+max-width:1200px;
+margin:auto;
+
+}
+
+.section-title{
+
+font-size:34px;
+font-weight:800;
+text-align:center;
+color:#E30613;
+margin:40px 0;
+
+}
+
+.video-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(450px,1fr));
+gap:30px;
+
+}
+
+.video-card{
+
+background:white;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.video-title{
+
+padding:18px;
+font-size:20px;
+font-weight:700;
+background:#E30613;
+color:white;
+
+}
+
+.video-card iframe{
+
+width:100%;
+height:300px;
+border:0;
+
+}
+
+.gallery{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+margin-top:30px;
+margin-bottom:70px;
+
+}
+
+.gallery img{
+
+width:100%;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+transition:.3s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.03);
+
+}
+
+footer{
+
+background:#E30613;
+padding:40px;
+text-align:center;
+color:white;
+
+}
+
+footer p{
+
+margin-top:10px;
+
+}
+
+@media(max-width:768px){
+
+h1{
+
+font-size:30px;
+
+}
+
+.video-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.video-card iframe{
+
+height:230px;
+
+}
+
+.gallery{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>SIKSIK 2.0</h1>
+<header>
 
-<h2>Official Tutorial Videos</h2>
+<img src="logo.png" class="logo">
 
-<p>
-Welcome to the official tutorial page.
+<h1>Official Tutorial Videos</h1>
+
+<p class="subtitle">
+
+Choose any tutorial below.
+All videos demonstrate the same official mixing procedure with different endorsers.
+
 </p>
+
+</header>
+
+<div class="notice container">
+
+<strong>Before You Start</strong><br><br>
+
+Please watch any of the tutorial videos below before preparing your DIY Dishwashing Liquid.
+
+</div>
+
+<div class="container">
+
+<h2 class="section-title">
+
+🎥 Tutorial Videos
+
+</h2>
+
+<div class="video-grid">
+
+<div class="video-card">
+
+<div class="video-title">
+
+Tutorial Video 1
+
+</div>
+
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+
+</div>
+
+<div class="video-card">
+
+<div class="video-title">
+
+Tutorial Video 2
+
+</div>
+
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+
+</div>
+
+<div class="video-card">
+
+<div class="video-title">
+
+Tutorial Video 3
+
+</div>
+
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+
+</div>
+
+<div class="video-card">
+
+<div class="video-title">
+
+Tutorial Video 4
+
+</div>
+
+<iframe src="https://www.youtube.com/embed/VIDEO_ID_4" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+<h2 class="section-title">
+
+Why Choose SIKSIK 2.0
+
+</h2>
+
+<div class="gallery">
+
+<img src="banner1.png">
+
+<img src="banner2.png">
+
+<img src="banner3.png">
+
+<img src="banner4.png">
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>SIKSIK 2.0</h2>
+
+<p>DIY Dishwashing Liquid</p>
+
+</footer>
 
 </body>
 </html>
